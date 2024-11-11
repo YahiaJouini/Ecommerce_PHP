@@ -10,17 +10,15 @@
 <body>
     <?php
     require_once "../connexion.php";
-    $sql = "INSERT INTO  produit 
-    VALUES (NULL, 'cable vga',1, 200, 'Lorem ipsum 
-    dolor sit amet consectetur adipisicing elit. Architecto 
-    laboriosam cum possimus quod assumenda
-     nihil cupiditate error, repudiandae ipsum neque.',
-      'https://picsum.photos/images/200/200', 0)";
+    $sql = "INSERT INTO `produit` (`id`, `libelle`, `prix`, `qte`, `des`, `image`, `promo`) VALUES (NULL, 'Dell XPS 15', '3000', '15', 'Powerful laptop with stunning display and excellent performance.', 'https://picsum.photos/200/200', '1');";
+        
     $connexion = new connexion();
     $pdo = $connexion->getConnexion();
 
     //envoi de la requete sql
     $res = $pdo->exec($sql);
+
+    echo $res;
     ?>
 
 </body>

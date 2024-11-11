@@ -13,25 +13,16 @@ class produit
         $this->promo = $promo;
     }
 
-    /**
-     * Get the value of id
-     */
     public function getId()
     {
         return $this->id;
     }
 
-    /**
-     * Get the value of libelle
-     */
     public function getLibelle()
     {
         return $this->libelle;
     }
 
-    /**
-     * Set the value of libelle
-     */
     public function setLibelle($libelle): self
     {
         $this->libelle = $libelle;
@@ -39,17 +30,11 @@ class produit
         return $this;
     }
 
-    /**
-     * Get the value of prix
-     */
     public function getPrix()
     {
         return $this->prix;
     }
 
-    /**
-     * Set the value of prix
-     */
     public function setPrix($prix): self
     {
         $this->prix = $prix;
@@ -57,17 +42,11 @@ class produit
         return $this;
     }
 
-    /**
-     * Get the value of qte
-     */
     public function getQte()
     {
         return $this->qte;
     }
 
-    /**
-     * Set the value of qte
-     */
     public function setQte($qte): self
     {
         $this->qte = $qte;
@@ -75,17 +54,11 @@ class produit
         return $this;
     }
 
-    /**
-     * Get the value of desc
-     */
     public function getDesc()
     {
         return $this->desc;
     }
 
-    /**
-     * Set the value of desc
-     */
     public function setDesc($desc): self
     {
         $this->desc = $desc;
@@ -93,17 +66,11 @@ class produit
         return $this;
     }
 
-    /**
-     * Get the value of image
-     */
     public function getImage()
     {
         return $this->image;
     }
 
-    /**
-     * Set the value of image
-     */
     public function setImage($image): self
     {
         $this->image = $image;
@@ -111,17 +78,11 @@ class produit
         return $this;
     }
 
-    /**
-     * Get the value of promo
-     */
     public function getPromo()
     {
         return $this->promo;
     }
 
-    /**
-     * Set the value of promo
-     */
     public function setPromo($promo): self
     {
         $this->promo = $promo;

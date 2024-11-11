@@ -13,9 +13,6 @@
     <?php
     include "nav.php";
     ?>
-
-
-
     <div class="container mt-3">
         <h1>Liste des Produits</h1>
         <div class="row">
@@ -23,15 +20,15 @@
             for ($i = 0; $i < 4; $i++) {
             ?>
 
-                <div class="col-3">
-                    <div class="card">
-                        <img src="https://picsum.photos/200/200" class="img-fluid" alt="la photo du produit">
+                <div class="col-3 mt-3">
+                    <div class="card rounded">
+                        <img src="https://picsum.photos/200/200" class="img-fluid rounded-top" alt="la photo du produit">
                         <div class="card-body">
                             <h1 class="card-title">Asus I7 1To</h1>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur
                                 adipisicing elit. Illum, sed!</p>
-                            <a href="#" class="btn btn-success btn-sm">Détail</a>
-                            <a href="#" class="btn btn-primary btn-sm">
+                            <a href="#" class="btn rounded btn-success btn-sm">Détail</a>
+                            <a href="#" class="btn rounded btn-primary btn-sm">
                                 <i class="fas fa-shopping-cart"></i>Ajouter</a>
                         </div>
 
