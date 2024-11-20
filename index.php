@@ -13,7 +13,7 @@
     <?php
     include "nav.php";
     ?>
-    <div class="container mt-3">
+    <div class="container mt-3 mb-3">
         <h1>Liste des Produits</h1>
         <div class="row">
             <?php
